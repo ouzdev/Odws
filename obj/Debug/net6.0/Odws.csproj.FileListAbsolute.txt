@@ -19,3 +19,9 @@ C:\Users\MEBS\desktop\odws\obj\Debug\net6.0\Odws.dll
 C:\Users\MEBS\desktop\odws\obj\Debug\net6.0\ref\Odws.dll
 C:\Users\MEBS\desktop\odws\obj\Debug\net6.0\Odws.pdb
 C:\Users\MEBS\desktop\odws\obj\Debug\net6.0\Odws.genruntimeconfig.cache
+C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MEBS\desktop\odws\obj\Debug\net6.0\Odws.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MEBS\desktop\odws\obj\Debug\net6.0\Odws.csproj.CopyComplete

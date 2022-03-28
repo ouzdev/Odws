@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "QsE2V2wT9Xwbj/ZwVGV0Xzr9Ka2v9z0lcKrpqM76+9ZAr+IsDs+Zgh7CCehunf8zpVjbEST1YLWWtNHXD7qSDg==",
+  "dgSpecHash": "uZ+0lFwdMtr8kbsssitzJMx3rh1uhMJJ0PVYZ8W3jFcp9Bg11MyW4cXRn2QMWYsGANGyzteD4Ft/8Gyyk1dD2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\MEBS\\desktop\\odws\\Odws.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.0\\swashbuckle.aspnetcore.6.3.0.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.0\\swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.0\\swashbuckle.aspnetcore.swaggergen.6.3.0.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.0\\swashbuckle.aspnetcore.swaggerui.6.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
