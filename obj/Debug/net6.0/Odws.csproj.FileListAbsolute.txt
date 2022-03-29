@@ -48,3 +48,5 @@ C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQ
 C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\System.Collections.Immutable.dll
 C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

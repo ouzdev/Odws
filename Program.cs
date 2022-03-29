@@ -1,18 +1,26 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Odws.Models;
 
 #region Create Builder
-var builder = WebApplication.CreateBuilder(new WebApplicationOptions{
+var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+{
     EnvironmentName = Environments.Development
 });
 #endregion
 
 #region Db context
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
-builder.Services.AddDbContext<OdwsDatabaseContext>(x=>x.UseNpgsql(connectionString));
+builder.Services.AddDbContext<OdwsDatabaseContext>(x => x.UseNpgsql(connectionString));
 #endregion
-
+var mappingConfig = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new NotesProfile());
+    mc.CreateMap<Note, NoteCreateDto>();
+});
+IMapper autoMapper = mappingConfig.CreateMapper();
+builder.Services.AddSingleton(autoMapper);
 #region Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -62,11 +70,20 @@ if (app.Environment.IsDevelopment())
 
 
 app.MapGet("/", () => "Odws Not Uygulamasına Hoşgeldiniz.");
-app.MapGet("/Notes",(OdwsDatabaseContext context)=>{
+app.MapGet("/Notes", async (OdwsDatabaseContext context) =>
+{
 
-    var notes =  context.Notes.ToList();
-   return notes;
+    var notes =await context.Notes.ToListAsync();
+    return notes;
 });
+
+app.MapPost("/Notes", async (Note addNote, OdwsDatabaseContext context) =>
+{
+    await context.Notes.AddAsync(addNote);
+    await context.SaveChangesAsync();
+  
+}
+    );
 
 app.Run();
 

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gP9XsTaMEFwPkV725+hXLTvntuM84ykKewGd0aF0eJx+cLjNRZ4y3vNVWKeRG77UsoIiMxexi37OR/mqTbS5Gw==",
+  "dgSpecHash": "UqsMx2ruP6vgZbfLLH69Rys/sI+UEgUpVMBMfAZNPM5pKoy6rFtmszG2xsgJ9RTHEF/JvUIEqiBUuy1nvG+zLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\MEBS\\desktop\\odws\\Odws.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MEBS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\MEBS\\.nuget\\packages\\humanizer.core\\2.13.14\\humanizer.core.2.13.14.nupkg.sha512",
-    "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0-preview.2.22153.1\\microsoft.entityframeworkcore.7.0.0-preview.2.22153.1.nupkg.sha512",
     "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0-preview.2.22153.1\\microsoft.entityframeworkcore.abstractions.7.0.0-preview.2.22153.1.nupkg.sha512",
     "C:\\Users\\MEBS\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0-preview.2.22153.1\\microsoft.entityframeworkcore.analyzers.7.0.0-preview.2.22153.1.nupkg.sha512",
