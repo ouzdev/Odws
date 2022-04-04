@@ -80,7 +80,6 @@ app.MapGet("/Notes", async (OdwsDatabaseContext context) =>
     var notes =await context.Notes.ToListAsync();
     return notes;
 });
-
 app.MapPost("/Notes", async (NoteCreateDto addNote, OdwsDatabaseContext context,IMapper mapper) =>
 {
       var _mappedUser = mapper.Map<Note>(addNote);
