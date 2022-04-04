@@ -10,17 +10,20 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 });
 #endregion
 
+#region AutoMapper
+var mappingConfig = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new NoteProfile());
+});
+IMapper autoMapper = mappingConfig.CreateMapper();
+builder.Services.AddSingleton(autoMapper);
+#endregion
+
 #region Db context
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 builder.Services.AddDbContext<OdwsDatabaseContext>(x => x.UseNpgsql(connectionString));
 #endregion
-var mappingConfig = new MapperConfiguration(mc =>
-{
-    mc.AddProfile(new NotesProfile());
-    mc.CreateMap<Note, NoteCreateDto>();
-});
-IMapper autoMapper = mappingConfig.CreateMapper();
-builder.Services.AddSingleton(autoMapper);
+
 #region Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -57,6 +60,7 @@ builder.Services.AddSwaggerGen(c =>
 
 #region Builder build
 var app = builder.Build();
+
 #endregion
 
 #region Environment check
@@ -77,11 +81,11 @@ app.MapGet("/Notes", async (OdwsDatabaseContext context) =>
     return notes;
 });
 
-app.MapPost("/Notes", async (Note addNote, OdwsDatabaseContext context) =>
+app.MapPost("/Notes", async (NoteCreateDto addNote, OdwsDatabaseContext context,IMapper mapper) =>
 {
-    await context.Notes.AddAsync(addNote);
-    await context.SaveChangesAsync();
-  
+      var _mappedUser = mapper.Map<Note>(addNote);
+     await context.Notes.AddAsync(_mappedUser);
+     await context.SaveChangesAsync();
 }
     );
 
