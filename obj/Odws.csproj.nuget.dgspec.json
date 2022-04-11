@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MEBS\\desktop\\odws\\Odws.csproj": {}
+    "C:\\Users\\MEBS\\Desktop\\Odws\\Odws.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MEBS\\desktop\\odws\\Odws.csproj": {
+    "C:\\Users\\MEBS\\Desktop\\Odws\\Odws.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MEBS\\desktop\\odws\\Odws.csproj",
+        "projectUniqueName": "C:\\Users\\MEBS\\Desktop\\Odws\\Odws.csproj",
         "projectName": "Odws",
-        "projectPath": "C:\\Users\\MEBS\\desktop\\odws\\Odws.csproj",
+        "projectPath": "C:\\Users\\MEBS\\Desktop\\Odws\\Odws.csproj",
         "packagesPath": "C:\\Users\\MEBS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MEBS\\desktop\\odws\\obj\\",
+        "outputPath": "C:\\Users\\MEBS\\Desktop\\Odws\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MEBS\\AppData\\Roaming\\NuGet\\NuGet.Config",
