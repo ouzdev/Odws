@@ -12,7 +12,6 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 builder.Services.UseAutoMapper();
 builder.Services.UseOdwsDbContext(builder);
 builder.Services.UseSwagger();
-
 var app = builder.Build();
 
 #region Environment check
