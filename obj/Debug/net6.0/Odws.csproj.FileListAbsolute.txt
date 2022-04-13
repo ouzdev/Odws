@@ -50,3 +50,15 @@ C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.
 C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\MEBS\desktop\odws\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
