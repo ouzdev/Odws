@@ -93,3 +93,234 @@ SELECT n.id, n.date, n.description, n.name
 FROM notes AS n
 2022-04-13 11:17:09.145 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
 2022-04-13 11:17:09.148 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 165.3184ms
+2022-04-13 11:22:55.792 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-13 11:22:55.867 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-13 11:22:55.874 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-13 11:22:55.877 +03:00 [INF] Hosting environment: Development
+2022-04-13 11:22:55.894 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-13 11:22:58.632 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-13 11:22:58.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 404 0 - 56.0428ms
+2022-04-13 11:23:01.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 11:23:01.849 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 3.3141ms
+2022-04-13 11:23:01.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:23:01.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 52.9987ms
+2022-04-13 11:23:01.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:23:01.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:23:01.923 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:23:01.945 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:23:01.945 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:23:01.945 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:23:01.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 26.6262ms
+2022-04-13 11:23:01.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 26.4580ms
+2022-04-13 11:23:01.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 26.5052ms
+2022-04-13 11:23:02.468 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 11:23:02.471 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 2.7499ms
+2022-04-13 11:23:02.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:23:02.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 1.6302ms
+2022-04-13 11:23:02.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:23:02.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:23:02.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:23:02.510 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:23:02.516 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:23:02.519 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:23:02.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 14.3344ms
+2022-04-13 11:23:02.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 15.8621ms
+2022-04-13 11:23:02.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 17.6341ms
+2022-04-13 11:23:02.526 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:23:02.526 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:23:02.534 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:23:02.537 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:23:02.540 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 13.9044ms
+2022-04-13 11:23:02.541 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 14.5828ms
+2022-04-13 11:23:02.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 11:23:03.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.5481ms
+2022-04-13 11:23:29.720 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:23:29.727 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:23:30.393 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:23:32.254 +03:00 [INF] Executed DbCommand (224ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:23:32.328 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:23:32.335 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 2614.0564ms
+2022-04-13 11:44:45.405 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-13 11:44:45.507 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-13 11:44:45.588 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-13 11:44:45.673 +03:00 [INF] Hosting environment: Development
+2022-04-13 11:44:45.678 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-13 11:44:50.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-13 11:44:50.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 404 0 - 59.5865ms
+2022-04-13 11:44:54.855 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 11:44:54.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 2.3396ms
+2022-04-13 11:44:54.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:44:54.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 59.4693ms
+2022-04-13 11:44:54.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:44:54.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:44:54.938 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:44:54.964 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:44:54.964 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:44:54.964 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:44:54.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 31.4710ms
+2022-04-13 11:44:54.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 29.6646ms
+2022-04-13 11:44:54.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 33.1450ms
+2022-04-13 11:44:55.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-13 11:44:55.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 404 0 - 7.0323ms
+2022-04-13 11:44:59.237 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 11:44:59.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 2.3603ms
+2022-04-13 11:44:59.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:44:59.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 1.8324ms
+2022-04-13 11:44:59.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:44:59.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:44:59.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:44:59.278 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:44:59.284 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:44:59.286 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:44:59.287 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 14.0577ms
+2022-04-13 11:44:59.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 15.9092ms
+2022-04-13 11:44:59.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:44:59.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 19.5116ms
+2022-04-13 11:44:59.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:44:59.298 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:44:59.306 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:44:59.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 15.6212ms
+2022-04-13 11:44:59.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 14.5185ms
+2022-04-13 11:44:59.735 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 11:44:59.848 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.2090ms
+2022-04-13 11:45:12.817 +03:00 [INF] Application is shutting down...
+2022-04-13 11:45:20.365 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-13 11:45:20.412 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-13 11:45:20.420 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-13 11:45:20.427 +03:00 [INF] Hosting environment: Development
+2022-04-13 11:45:20.430 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-13 11:45:24.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-13 11:45:24.450 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 404 0 - 61.9557ms
+2022-04-13 11:45:33.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:45:33.230 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 67.6994ms
+2022-04-13 11:45:33.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:45:33.280 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:45:33.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 20.2742ms
+2022-04-13 11:45:33.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 11:45:33.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/favicon-32x32.png - -
+2022-04-13 11:45:33.718 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-13 11:45:33.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/favicon-32x32.png - - - 200 628 image/png 5.6153ms
+2022-04-13 11:45:33.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.0189ms
+2022-04-13 11:46:26.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:46:26.764 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:46:27.402 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:46:29.138 +03:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:46:29.210 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:46:29.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 2459.7041ms
+2022-04-13 11:46:41.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:46:41.300 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:46:41.307 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:46:41.455 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:46:41.462 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:46:41.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 184.5066ms
+2022-04-13 11:46:55.307 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:46:55.311 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:46:55.367 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:46:55.515 +03:00 [INF] Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:46:55.524 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:46:55.528 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 220.3663ms
+2022-04-13 11:50:31.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:50:31.088 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:50:31.091 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:50:31.238 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:50:31.245 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:50:31.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 161.5966ms
+2022-04-13 13:52:07.899 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 13:52:07.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 7.4979ms
+2022-04-13 13:52:07.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 13:52:07.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 19.7485ms
+2022-04-13 13:52:07.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 13:52:07.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 13:52:07.962 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 13:52:07.979 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 13:52:07.979 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 13:52:07.982 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 13:52:07.982 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 20.8237ms
+2022-04-13 13:52:07.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 22.6140ms
+2022-04-13 13:52:07.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 24.4815ms
+2022-04-13 13:52:08.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 13:52:08.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.3896ms
+2022-04-13 13:52:13.019 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 13:52:13.020 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 13:52:13.028 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 13:52:14.214 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 13:52:14.230 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 13:52:14.236 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 1217.1204ms
+2022-04-13 15:48:56.097 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-13 15:48:56.143 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-13 15:48:56.150 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-13 15:48:56.151 +03:00 [INF] Hosting environment: Development
+2022-04-13 15:48:56.152 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-13 15:49:00.216 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-13 15:49:00.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 404 0 - 101.7584ms
+2022-04-13 15:49:03.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 15:49:03.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 2.8278ms
+2022-04-13 15:49:03.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 15:49:04.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 110.0416ms
+2022-04-13 15:49:04.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 15:49:04.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 15:49:04.048 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 15:49:04.064 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 15:49:04.064 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 15:49:04.064 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 15:49:04.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 19.9230ms
+2022-04-13 15:49:04.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 25.9893ms
+2022-04-13 15:49:04.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 28.3480ms
+2022-04-13 15:49:04.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 15:49:04.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 15:49:04.076 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 15:49:04.081 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 15:49:04.082 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 10.1997ms
+2022-04-13 15:49:04.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 11.3622ms
+2022-04-13 15:49:04.407 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 15:49:04.411 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 3.8368ms
+2022-04-13 15:49:04.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 15:49:04.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 2.4595ms
+2022-04-13 15:49:04.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 15:49:04.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 15:49:04.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 15:49:04.458 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 15:49:04.468 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 15:49:04.468 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 15:49:04.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 16.9171ms
+2022-04-13 15:49:04.471 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 17.4862ms
+2022-04-13 15:49:04.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 18.7710ms
+2022-04-13 15:49:04.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 15:49:05.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 402.7444ms
+2022-04-13 15:49:08.605 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 15:49:08.651 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 15:49:10.514 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 15:49:12.361 +03:00 [INF] Executed DbCommand (220ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 15:49:12.468 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 15:49:12.475 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 3870.6537ms
+2022-04-13 15:49:48.725 +03:00 [INF] Application is shutting down...
+2022-04-13 15:49:58.797 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-13 15:49:58.836 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-13 15:49:58.844 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-13 15:49:58.921 +03:00 [INF] Hosting environment: Development
+2022-04-13 15:49:58.923 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-13 15:50:01.208 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 15:50:01.309 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 103.4455ms
+2022-04-13 15:50:01.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 15:50:01.369 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 15:50:01.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 27.7238ms
+2022-04-13 15:50:01.735 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 15:50:01.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/favicon-32x32.png - -
+2022-04-13 15:50:01.750 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-13 15:50:01.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/favicon-32x32.png - - - 200 628 image/png 3.6910ms
+2022-04-13 15:50:01.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.6987ms
+2022-04-13 15:50:49.909 +03:00 [INF] Application is shutting down...

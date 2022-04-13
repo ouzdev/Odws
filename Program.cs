@@ -22,11 +22,11 @@ if (app.Environment.IsDevelopment())
 }
 #endregion
 
-app.MapGet("/Notes", async (OdwsDatabaseContext context) =>
+app.MapGet("/Notes", async (OdwsDatabaseContext context, IMapper mapper) =>
 {
-
     var notes = await context.Notes.ToListAsync();
-    return notes;
+    var notesDto = mapper.Map<List<NoteReadDto>>(notes);
+    return notesDto;
 });
 app.MapPost("/Notes", async (NoteCreateDto addNote, OdwsDatabaseContext context, IMapper mapper) =>
 {

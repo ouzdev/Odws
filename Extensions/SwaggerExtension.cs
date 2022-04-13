@@ -7,11 +7,11 @@ public static class SwaggerExtension
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api", Version = "v1" });
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Odws Note App API", Version = "v1" });
 
             c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
             {
-                Description = "JWT Authorization header'da Bearer eklemenize gerek yoktur. Örnek: \"Authorization: Bearer {token}\"",
+                Description = "JWT Authorization header'da Bearer eklemenize gerek yoktur. Örnek: \"Authorization:{token}\"",
                 Name = "Authorization",
                 In = ParameterLocation.Header,
                 Type = SecuritySchemeType.Http,

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Odws.Models
+﻿namespace Odws.Models
 {
     public partial class Note
     {

@@ -1,8 +1,10 @@
-# Odws
+# Odws Note App
 
-Dotnet 6.0 MinAPI 
-Docker
-Jenkins CI/CD Pipeline
-AWS EC2
-
-Teknolojileri kullanılarak sample bir proje yapılmak istenmektedir.
+### Back-end tarafında kullanılan teknolojiler
+* .NET 6.0
+* Entity Framework Core
+* AutoMapper
+* Serilog & Seq
+* PostgreSQL
+* JWT (Json Web Token)
+* Swagger 
