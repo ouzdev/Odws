@@ -1,0 +1,95 @@
+2022-04-13 11:04:07.240 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-13 11:04:07.326 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-13 11:04:07.333 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-13 11:04:07.334 +03:00 [INF] Hosting environment: Development
+2022-04-13 11:04:07.359 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-13 11:04:14.498 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-13 11:04:14.548 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 404 0 - 52.5051ms
+2022-04-13 11:04:16.323 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 11:04:16.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 4.2519ms
+2022-04-13 11:04:16.334 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:04:16.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 56.0403ms
+2022-04-13 11:04:16.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:04:16.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:04:16.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:04:16.417 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:04:16.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 18.3397ms
+2022-04-13 11:04:16.423 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:04:16.424 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:04:16.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 24.0992ms
+2022-04-13 11:04:16.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 24.6998ms
+2022-04-13 11:04:16.900 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-13 11:04:16.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 2.3904ms
+2022-04-13 11:04:16.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-13 11:04:16.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 2.2734ms
+2022-04-13 11:04:16.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-13 11:04:16.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:04:16.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:04:16.943 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-13 11:04:16.948 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:04:16.949 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:04:16.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 14.4497ms
+2022-04-13 11:04:16.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 15.5948ms
+2022-04-13 11:04:16.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 17.7688ms
+2022-04-13 11:04:16.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-13 11:04:16.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-13 11:04:16.963 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-13 11:04:16.967 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-13 11:04:16.969 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 12.7213ms
+2022-04-13 11:04:16.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 12.2265ms
+2022-04-13 11:04:17.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-13 11:04:17.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.0374ms
+2022-04-13 11:04:22.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:04:22.351 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:04:22.986 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:04:24.785 +03:00 [INF] Executed DbCommand (215ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:04:24.883 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:04:24.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 2547.1979ms
+2022-04-13 11:08:35.504 +03:00 [INF] Request starting HTTP/2 POST https://localhost:1998/Notes application/json 72
+2022-04-13 11:08:35.506 +03:00 [INF] Executing endpoint 'HTTP: POST /Notes'
+2022-04-13 11:08:35.528 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:08:35.797 +03:00 [INF] Executed DbCommand (155ms) [Parameters=[@p0='?', @p1='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO notes (description, name)
+VALUES (@p0, @p1)
+RETURNING id, date;
+2022-04-13 11:08:36.020 +03:00 [INF] Executed endpoint 'HTTP: POST /Notes'
+2022-04-13 11:08:36.022 +03:00 [INF] Request finished HTTP/2 POST https://localhost:1998/Notes application/json 72 - 200 0 - 517.8743ms
+2022-04-13 11:13:40.235 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:13:40.239 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:13:40.303 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:13:41.437 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:13:41.450 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:13:41.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 1219.6816ms
+2022-04-13 11:13:53.725 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:1998/Notes/6 - -
+2022-04-13 11:13:53.740 +03:00 [INF] Executing endpoint 'HTTP: DELETE /Notes/{id}'
+2022-04-13 11:13:53.748 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:13:53.962 +03:00 [INF] Executed DbCommand (147ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+WHERE n.id = @__id_0
+LIMIT 1
+2022-04-13 11:13:54.141 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM notes
+WHERE id = @p0;
+2022-04-13 11:13:54.308 +03:00 [INF] Executed endpoint 'HTTP: DELETE /Notes/{id}'
+2022-04-13 11:13:54.310 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:1998/Notes/6 - - - 200 0 - 586.4386ms
+2022-04-13 11:13:58.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:13:58.677 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:13:58.680 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:13:58.828 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:13:58.838 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:13:58.842 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 166.9744ms
+2022-04-13 11:17:08.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-13 11:17:08.984 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-13 11:17:08.986 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-13 11:17:09.134 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-13 11:17:09.145 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-13 11:17:09.148 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 165.3184ms

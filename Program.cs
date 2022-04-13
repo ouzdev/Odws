@@ -1,7 +1,6 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Odws.Models;
-using Serilog;
 
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
@@ -11,8 +10,7 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 builder.Services.UseAutoMapper();
 builder.Services.UseOdwsDbContext(builder);
 builder.Services.UseSwagger();
-builder.Host.UseSerilog((ctx, lc) => lc
-    .WriteTo.Console());
+builder.Host.UseSerilogExtension();
 var app = builder.Build();
 
 #region Environment check
