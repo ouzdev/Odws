@@ -21,7 +21,7 @@ Bunlar;
 
 ### Back-End
 
-Back-End tarafında uygulama için .NET 6.0 çatısı, Minimal API ve çeşitli güncel teknolojiler kullanılmıştır. Logging, Authorization & Authentication, Access Database, Validation, Performans ve Test gibi daha bir çok konu göz önünde bulundurularak kodlanmaya devam edilmektedir. Kısacası bu kısımda bir Web API projesinin bünyesinde bulunması gereken çoğu yaklaşım uygulanmaya çalışılmaktadır. Back-end kısmını geliştirirken desing patterns ve best-practices gibi yaklaşımlar benimsenecektir.
+Back-End tarafında uygulama için .NET 6.0 çatısı, Minimal API ve çeşitli güncel teknolojiler kullanılmıştır. Logging, Authorization & Authentication, Access Database, Validation, Performans ve Test gibi daha bir çok konu göz önünde bulundurularak kodlanmaya devam edilmektedir. Kısacası bu kısımda bir Web API projesinin bünyesinde bulunması gereken çoğu yaklaşım uygulanmaya çalışılmaktadır. Back-end kısmını geliştirirken desing patterns ve best-practices'lere uyularak geliştirmelere devam edilecektir.
 
 ### Front-End
 
