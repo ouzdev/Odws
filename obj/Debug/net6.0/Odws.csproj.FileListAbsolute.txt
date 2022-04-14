@@ -62,3 +62,5 @@ C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
 C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\MEBS\Desktop\Odws\bin\Debug\net6.0\appsettings.Staging.json
