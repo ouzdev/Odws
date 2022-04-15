@@ -36,6 +36,21 @@
           "lib/net6.0/Humanizer.dll": {}
         }
       },
+      "Microsoft.AspNetCore.SpaProxy/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Microsoft.AspNetCore.SpaProxy.targets": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -1637,6 +1652,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.SpaProxy/6.0.1": {
+      "sha512": "+YbeF1hAslAdJN0quGZH3G7LHfq7kQypguLfyhD1BoR+Zad+ntTzj3H9lLYOiWOZyOMVqbxbgn9tevFfh+jOaw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.spaproxy/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/Microsoft.AspNetCore.SpaProxy.targets",
+        "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll",
+        "microsoft.aspnetcore.spaproxy.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -5872,6 +5902,7 @@
     "net6.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Microsoft.AspNetCore.SpaProxy >= 6.0.1",
       "Microsoft.EntityFrameworkCore >= 7.0.0-preview.2.22153.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0-preview.2.22153.1",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0-preview.2.22153.1",
@@ -5929,6 +5960,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.0.0, )"
+          },
+          "Microsoft.AspNetCore.SpaProxy": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44424",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\MEBS\\Desktop\\Odws\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
