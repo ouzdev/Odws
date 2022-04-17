@@ -8,7 +8,7 @@ export class NoteData extends Component {
     this.state = {
       error: null,
       isLoaded: false,
-      items: []
+      resultData: []
     };
   }
 
@@ -19,10 +19,10 @@ export class NoteData extends Component {
       (result) => {
         this.setState({
           isLoaded: true,
-          items: result.items
+          resultData: result
         });
 
-        console.log(result);
+        console.log(this.state.resultData);
       },
       // Not: Burada hataları yakalamak önemlidir.
       // Bileşenimizde bug bulunmaması için, 'catch ()' bloğu yerine bulunan
@@ -38,16 +38,22 @@ export class NoteData extends Component {
 
 
   render() {
-    
-
-    return (
-      <div>
-        <h1 id="tabelLabel" >Weather forecast</h1>
-        <p>This component demonstrates fetching data from the server.</p>
-      </div>
-
-      
-    );
+    const { error, isLoaded, resultData } = this.state;
+    if (error) {
+      return <div>Error: {error.message}</div>;
+    } else if (!isLoaded) {
+      return <div>Loading...</div>;
+    } else {
+      return (
+        <ul>
+          {resultData.map(item => (
+            <li key={item.id}>
+              {item.name} {item.description}  {item.createdDate}  
+            </li>
+          ))}
+        </ul>
+      );
+    }
   }
 
  

@@ -1,0 +1,628 @@
+2022-04-16 00:04:48.103 +03:00 [INF] Now listening on: https://localhost:1998
+2022-04-16 00:04:48.445 +03:00 [INF] Now listening on: http://localhost:5108
+2022-04-16 00:04:48.451 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-16 00:04:48.453 +03:00 [INF] Hosting environment: Development
+2022-04-16 00:04:48.454 +03:00 [INF] Content root path: C:\Users\MEBS\Desktop\Odws\
+2022-04-16 00:04:53.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:04:57.924 +03:00 [INF] No SPA development server running at https://localhost:44424 found.
+2022-04-16 00:04:58.393 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:04:58.564 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4754.2097ms
+2022-04-16 00:04:58.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/favicon.ico - -
+2022-04-16 00:04:59.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/favicon.ico - - - 404 0 - 531.8486ms
+2022-04-16 00:05:01.997 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:06.074 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:06.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4080.5626ms
+2022-04-16 00:05:09.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:13.297 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:13.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4097.2688ms
+2022-04-16 00:05:16.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:20.459 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:20.462 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4046.8932ms
+2022-04-16 00:05:23.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:27.676 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:27.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4048.1029ms
+2022-04-16 00:05:30.839 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:34.907 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:34.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4069.2406ms
+2022-04-16 00:05:38.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:42.118 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:42.120 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 4098.2938ms
+2022-04-16 00:05:45.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:05:55.418 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-16 00:05:55.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 200 - text/html 10188.2567ms
+2022-04-16 00:05:58.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/ - -
+2022-04-16 00:06:00.897 +03:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44424.
+2022-04-16 00:06:00.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/ - - - 302 0 - 2073.3253ms
+2022-04-16 00:06:02.068 +03:00 [INF] SPA development server running at 'https://localhost:44424'
+2022-04-16 00:06:05.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:06:05.671 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:06:05.918 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:06:07.964 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:06:11.281 +03:00 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:06:11.555 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:06:11.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 5946.7496ms
+2022-04-16 00:07:14.906 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger - -
+2022-04-16 00:07:14.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger - - - 301 0 - 2.5102ms
+2022-04-16 00:07:14.911 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-16 00:07:15.024 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 112.2181ms
+2022-04-16 00:07:15.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-16 00:07:15.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-16 00:07:15.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-16 00:07:15.159 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-16 00:07:15.162 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 106.1025ms
+2022-04-16 00:07:15.166 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-16 00:07:15.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 112.0830ms
+2022-04-16 00:07:15.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-16 00:07:15.178 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-16 00:07:15.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 11.4082ms
+2022-04-16 00:07:15.191 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-16 00:07:15.193 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 137.0930ms
+2022-04-16 00:07:15.206 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-16 00:07:15.213 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-16 00:07:15.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 9.4642ms
+2022-04-16 00:07:15.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-16 00:07:15.853 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 310.0625ms
+2022-04-16 00:07:24.427 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-16 00:07:24.440 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:07:24.445 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:07:24.596 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:07:24.602 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:07:24.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 177.8775ms
+2022-04-16 00:14:15.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:14:15.676 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:14:15.678 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:14:15.813 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:14:17.203 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:14:17.219 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:14:17.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 1561.4682ms
+2022-04-16 00:14:17.232 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:14:17.236 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:14:17.240 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:14:17.246 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:14:17.400 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:14:17.404 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:14:17.405 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 173.0643ms
+2022-04-16 00:14:24.552 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:14:24.566 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:14:24.568 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:14:24.577 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:14:24.728 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:14:24.731 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:14:24.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 180.7761ms
+2022-04-16 00:15:38.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:15:38.355 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:15:38.357 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:15:38.361 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:15:38.513 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:15:38.522 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:15:38.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 173.3864ms
+2022-04-16 00:15:49.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:15:49.294 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:15:49.295 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:15:49.298 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:15:49.447 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:15:49.450 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:15:49.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 158.9326ms
+2022-04-16 00:15:55.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:15:55.338 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:15:55.340 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:15:55.345 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:15:55.506 +03:00 [INF] Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:15:55.509 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:15:55.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 179.8731ms
+2022-04-16 00:16:00.076 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:16:00.079 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:16:00.081 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:00.088 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:16:00.275 +03:00 [INF] Executed DbCommand (174ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:16:00.278 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:00.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 202.7598ms
+2022-04-16 00:16:17.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:16:17.285 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:16:17.288 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:17.290 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:16:17.439 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:16:17.441 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:17.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 159.1504ms
+2022-04-16 00:16:39.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:16:39.384 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:16:39.385 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:39.387 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:16:39.535 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:16:39.538 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:39.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 157.6880ms
+2022-04-16 00:16:54.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:16:54.300 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:16:54.305 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:54.308 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:16:54.464 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:16:54.466 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:54.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 168.7246ms
+2022-04-16 00:16:56.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:16:56.506 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:16:56.507 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:56.508 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:16:56.665 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:16:56.668 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:16:56.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 165.4245ms
+2022-04-16 00:17:13.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:17:13.397 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:17:13.398 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:13.401 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:17:13.549 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:17:13.556 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:13.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 164.0855ms
+2022-04-16 00:17:25.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:17:25.298 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:17:25.299 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:25.302 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:17:25.453 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:17:25.455 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:25.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 166.0676ms
+2022-04-16 00:17:25.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:17:25.504 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:17:25.506 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:25.509 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:17:25.668 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:17:25.680 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:25.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 209.2240ms
+2022-04-16 00:17:41.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:17:41.494 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:17:41.499 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:41.504 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:17:41.683 +03:00 [INF] Executed DbCommand (166ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:17:41.686 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:41.688 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 201.0967ms
+2022-04-16 00:17:41.692 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:17:41.694 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:17:41.696 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:41.699 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:17:41.875 +03:00 [INF] Executed DbCommand (172ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:17:41.886 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:17:41.887 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 195.2899ms
+2022-04-16 00:18:27.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:18:27.298 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:18:27.307 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:18:27.315 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:18:27.468 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:18:27.471 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:18:27.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 179.0566ms
+2022-04-16 00:18:27.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:18:27.505 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:18:27.507 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:18:27.509 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:18:27.658 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:18:27.660 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:18:27.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 161.7233ms
+2022-04-16 00:19:17.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:19:18.012 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:19:18.015 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:18.018 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:19:19.186 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:19:19.189 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:19.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 1201.8734ms
+2022-04-16 00:19:19.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:19:19.196 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:19:19.198 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:19.200 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:19:19.348 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:19:19.351 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:19.353 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 158.7337ms
+2022-04-16 00:19:29.945 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:19:29.951 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:19:29.959 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:29.988 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:19:30.150 +03:00 [INF] Executed DbCommand (157ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:19:30.152 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:30.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 208.4785ms
+2022-04-16 00:19:30.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:19:30.271 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:19:30.273 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:30.275 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:19:30.438 +03:00 [INF] Executed DbCommand (160ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:19:30.440 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:19:30.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 175.3515ms
+2022-04-16 00:20:55.163 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:20:55.173 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:20:55.198 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:20:55.204 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:20:55.375 +03:00 [INF] Executed DbCommand (153ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:20:55.379 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:20:55.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 216.5826ms
+2022-04-16 00:20:55.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:20:55.482 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:20:55.493 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:20:55.495 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:20:55.644 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:20:55.648 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:20:55.649 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 194.0144ms
+2022-04-16 00:21:18.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:21:18.840 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:21:18.842 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:21:18.852 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:21:19.010 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:21:19.012 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:21:19.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 175.7246ms
+2022-04-16 00:21:19.890 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:21:19.899 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:21:19.900 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:21:19.907 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:21:20.061 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:21:20.063 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:21:20.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 174.3931ms
+2022-04-16 00:21:59.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:21:59.984 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:22:00.038 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:22:00.052 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:22:00.201 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:22:00.214 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:22:00.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 244.4944ms
+2022-04-16 00:22:58.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:22:58.057 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:22:58.062 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:22:58.064 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:22:58.213 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:22:58.217 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:22:58.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 163.6156ms
+2022-04-16 00:23:00.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:23:00.537 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:23:00.539 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:23:00.543 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:23:00.691 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:23:00.694 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:23:00.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 161.8702ms
+2022-04-16 00:23:45.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:23:45.220 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:23:45.222 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:23:45.224 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:23:45.373 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:23:45.375 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:23:45.377 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 160.3708ms
+2022-04-16 00:25:35.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/index.html - -
+2022-04-16 00:25:35.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/index.html - - - 200 - text/html;charset=utf-8 2.0817ms
+2022-04-16 00:25:35.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - -
+2022-04-16 00:25:35.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - -
+2022-04-16 00:25:35.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - -
+2022-04-16 00:25:35.841 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-16 00:25:35.842 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-16 00:25:35.846 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-16 00:25:35.849 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-bundle.js - - - 200 1079362 application/javascript 12.8698ms
+2022-04-16 00:25:35.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui.css - - - 200 143821 text/css 14.7326ms
+2022-04-16 00:25:35.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/swagger-ui-standalone-preset.js - - - 200 319705 application/javascript 16.4077ms
+2022-04-16 00:25:36.222 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - -
+2022-04-16 00:25:36.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.5491ms
+2022-04-16 00:25:36.238 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/swagger/favicon-32x32.png - -
+2022-04-16 00:25:36.251 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-16 00:25:36.253 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/swagger/favicon-32x32.png - - - 200 628 image/png 15.0529ms
+2022-04-16 00:25:39.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-16 00:25:39.819 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:25:39.821 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:25:41.015 +03:00 [INF] Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:25:41.028 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:25:41.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 1217.3164ms
+2022-04-16 00:29:51.857 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:29:51.862 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:29:51.864 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:29:51.878 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:29:52.030 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:29:52.033 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:29:52.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 177.2463ms
+2022-04-16 00:29:52.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:29:52.227 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:29:52.228 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:29:52.231 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:29:52.384 +03:00 [INF] Executed DbCommand (150ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:29:52.386 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:29:52.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 167.1274ms
+2022-04-16 00:30:10.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:30:10.511 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:30:10.512 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:10.514 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:30:10.663 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:30:10.665 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:10.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 166.4857ms
+2022-04-16 00:30:15.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:30:15.578 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:30:15.580 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:15.583 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:30:15.734 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:30:15.739 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:15.741 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 165.5911ms
+2022-04-16 00:30:58.175 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:30:58.186 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:30:58.192 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:58.212 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:30:59.342 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:30:59.355 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:59.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 1185.6832ms
+2022-04-16 00:30:59.382 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:30:59.385 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:30:59.386 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:59.388 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:30:59.539 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:30:59.543 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:30:59.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 162.2030ms
+2022-04-16 00:31:10.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:31:10.415 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:31:10.416 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:10.418 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:31:10.567 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:31:10.571 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:10.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 158.6310ms
+2022-04-16 00:31:15.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:31:15.742 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:31:15.744 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:15.746 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:31:15.913 +03:00 [INF] Executed DbCommand (164ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:31:15.934 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:15.936 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 198.2783ms
+2022-04-16 00:31:26.568 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:31:26.579 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:31:26.592 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:26.597 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:31:26.751 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:31:26.753 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:26.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 186.6514ms
+2022-04-16 00:31:26.797 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:31:26.807 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:31:26.809 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:26.812 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:31:26.965 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:31:26.968 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:31:26.969 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 172.1009ms
+2022-04-16 00:33:35.482 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:33:35.484 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:33:35.487 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:35.490 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:33:35.643 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:33:35.645 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:35.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 165.2829ms
+2022-04-16 00:33:35.785 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:33:35.793 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:33:35.795 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:35.798 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:33:35.946 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:33:35.952 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:35.954 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 168.5851ms
+2022-04-16 00:33:50.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:33:50.060 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:33:50.062 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:50.063 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:33:50.211 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:33:50.214 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:50.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 173.8624ms
+2022-04-16 00:33:50.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:33:50.276 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:33:50.277 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:50.280 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:33:50.430 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:33:50.433 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:33:50.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 161.0661ms
+2022-04-16 00:34:23.959 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:34:23.964 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:34:23.971 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:23.975 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:34:24.126 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:34:24.128 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:24.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 171.3172ms
+2022-04-16 00:34:24.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:34:24.170 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:34:24.171 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:24.173 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:34:24.321 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:34:24.325 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:24.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 164.3550ms
+2022-04-16 00:34:32.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:34:32.817 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:34:32.819 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:32.821 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:34:33.002 +03:00 [INF] Executed DbCommand (177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:34:33.007 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:33.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 200.5144ms
+2022-04-16 00:34:51.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:34:51.314 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:34:51.316 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:51.318 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:34:51.466 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:34:51.469 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:34:51.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 157.5326ms
+2022-04-16 00:35:20.482 +03:00 [INF] Request starting HTTP/2 POST https://localhost:1998/Notes/{id} application/json 109
+2022-04-16 00:35:20.485 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:35:20.487 +03:00 [INF] Executing endpoint 'HTTP: POST /Notes/{id}'
+2022-04-16 00:35:20.530 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:35:20.808 +03:00 [INF] Executed DbCommand (165ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE notes SET date = @p0, description = @p1, name = @p2
+WHERE id = @p3;
+2022-04-16 00:35:21.029 +03:00 [INF] Executed endpoint 'HTTP: POST /Notes/{id}'
+2022-04-16 00:35:21.034 +03:00 [INF] Request finished HTTP/2 POST https://localhost:1998/Notes/{id} application/json 109 - 200 0 - 551.3214ms
+2022-04-16 00:35:25.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:35:25.078 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:35:25.080 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:35:25.084 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:35:25.233 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:35:25.236 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:35:25.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 162.1470ms
+2022-04-16 00:35:30.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/Notes - -
+2022-04-16 00:35:30.673 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:35:30.675 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:35:30.824 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:35:30.827 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:35:30.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/Notes - - - 200 - application/json;+charset=utf-8 157.3758ms
+2022-04-16 00:35:41.975 +03:00 [INF] Request starting HTTP/2 POST https://localhost:1998/Notes/{id} application/json 111
+2022-04-16 00:35:41.977 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:35:41.978 +03:00 [INF] Executing endpoint 'HTTP: POST /Notes/{id}'
+2022-04-16 00:35:41.981 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:35:42.152 +03:00 [INF] Executed DbCommand (167ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE notes SET date = @p0, description = @p1, name = @p2
+WHERE id = @p3;
+2022-04-16 00:35:42.316 +03:00 [INF] Executed endpoint 'HTTP: POST /Notes/{id}'
+2022-04-16 00:35:42.320 +03:00 [INF] Request finished HTTP/2 POST https://localhost:1998/Notes/{id} application/json 111 - 200 0 - 345.2307ms
+2022-04-16 00:35:45.954 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:35:45.960 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:35:45.963 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:35:45.965 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:35:46.113 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:35:46.117 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:35:46.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 163.6513ms
+2022-04-16 00:36:06.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:36:06.298 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:36:06.300 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:36:06.304 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:36:07.487 +03:00 [INF] Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:36:07.499 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:36:07.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 1209.7683ms
+2022-04-16 00:37:12.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:37:12.292 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:37:12.294 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:37:12.295 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:37:12.445 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:37:12.448 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:37:12.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 158.3351ms
+2022-04-16 00:37:26.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:37:26.299 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:37:26.303 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:37:26.307 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:37:26.460 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:37:26.463 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:37:26.465 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 169.2565ms
+2022-04-16 00:37:42.433 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:37:42.446 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:37:42.447 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:37:42.449 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:37:42.597 +03:00 [INF] Executed DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:37:42.600 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:37:42.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 167.6606ms
+2022-04-16 00:38:06.579 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:38:06.584 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:38:06.586 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:38:06.590 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:38:06.739 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:38:06.742 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:38:06.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 164.0316ms
+2022-04-16 00:38:46.171 +03:00 [INF] Request starting HTTP/2 GET https://localhost:1998/notes - -
+2022-04-16 00:38:46.173 +03:00 [INF] CORS policy execution successful.
+2022-04-16 00:38:46.174 +03:00 [INF] Executing endpoint 'HTTP: GET /Notes'
+2022-04-16 00:38:46.175 +03:00 [INF] Entity Framework Core 7.0.0-preview.2.22153.1 initialized 'OdwsDatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.0-preview.2+b1d0ef42bdc96adf002f761edc8489b46d6d54b5' with options: None
+2022-04-16 00:38:46.324 +03:00 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT n.id, n.date, n.description, n.name
+FROM notes AS n
+2022-04-16 00:38:46.327 +03:00 [INF] Executed endpoint 'HTTP: GET /Notes'
+2022-04-16 00:38:46.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:1998/notes - - - 200 - application/json;+charset=utf-8 158.2773ms
