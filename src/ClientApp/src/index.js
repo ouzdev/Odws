@@ -5,14 +5,18 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-
+import { ThemeProvider } from '@emotion/react';
+import { dashboardTheme } from './layouts/dashboardTheme';
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
-  <BrowserRouter basename={baseUrl}>
-    <App />
-  </BrowserRouter>,
+  
+  <ThemeProvider theme={dashboardTheme}>
+    <BrowserRouter basename={baseUrl}>
+      <App />
+    </BrowserRouter>
+  </ThemeProvider>,
   rootElement);
 
 // If you want your app to work offline and load faster, you can change
