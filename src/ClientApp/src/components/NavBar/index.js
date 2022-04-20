@@ -11,7 +11,6 @@ import Menu from '@mui/material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import Brightness4Icon from '@mui/icons-material/Brightness4';
 import ToggleColorMode from '../ToggleColorMode/index';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -116,9 +115,8 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-      <IconButton sx={{ ml: 1 }}  color="inherit">
-       <Brightness4Icon />
-      </IconButton>
+      <ToggleColorMode />
+
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
