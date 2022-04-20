@@ -1,6 +1,7 @@
 import { createTheme } from "@mui/material";
 
 export const lightTheme = createTheme({
+ 
   palette: {
     mode: "light",
     background: {
@@ -9,6 +10,9 @@ export const lightTheme = createTheme({
     text: {
       primary: "#11111",
     },
+    card:{
+      backgroundColor: "#11111"
+    }
   },
 });
 
