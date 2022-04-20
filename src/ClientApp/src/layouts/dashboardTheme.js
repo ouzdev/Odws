@@ -1,23 +1,25 @@
-import {createTheme} from '@mui/material/styles';
-import {useState} from 'react';
+import { createTheme } from "@mui/material";
 
-export const dashboardTheme = createTheme({
-    
-    typography: {
-        fontFamily: [
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-        ].join(','),
-      },
-      palette: { 
-        mode: useState.mode,
-    }
+export const lightTheme = createTheme({
+  palette: {
+    mode: "light",
+    background: {
+      paper: "#f2f2f2",
+    },
+    text: {
+      primary: "#11111",
+    },
+  },
+});
+
+export const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+    background: {
+      paper: "#222",
+    },
+    text: {
+      primary: "#fff",
+    },
+  },
 });

@@ -1,14 +1,20 @@
-import React, { Component} from 'react';
+import { useSelector} from 'react-redux';
 import { Layout } from './layouts/Layout';
 import './custom.css'
+import { ThemeProvider } from "@mui/material/styles";
+import { darkTheme, lightTheme } from "./layouts/dashboardTheme";
 
-export default class App extends Component {
+
+function App(){
+  const theme = useSelector((state) => state.theme);
 
 
-    render () {
     return (
-      <Layout>
-      </Layout>
+      <ThemeProvider theme={theme.darkTheme ? darkTheme : lightTheme}>
+
+      <Layout></Layout>
+      </ThemeProvider>
     );
   }
-}
+  export default App;
+

@@ -12,7 +12,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
-import Dashboard from '../ToggleColorMode/toggleColorMode';
+import ToggleColorMode from '../ToggleColorMode/index';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius:20,
@@ -160,7 +160,7 @@ export default function PrimarySearchAppBar() {
           </Search>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-          <Dashboard />
+          <ToggleColorMode />
       
             <IconButton
               size="large"
