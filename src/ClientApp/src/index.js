@@ -13,7 +13,6 @@ const rootElement = document.getElementById('root');
 
 ReactDOM.render(
   <Provider store={store}>
-
     <BrowserRouter basename={baseUrl}>
       <App />
     </BrowserRouter>,
