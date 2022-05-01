@@ -1,6 +1,7 @@
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Odws.Models;
+using Odws.Utilities.Result;
 
 public static class NoteEndpoint
 {
@@ -10,7 +11,7 @@ public static class NoteEndpoint
         {
            var notes = await context.Notes.ToListAsync();
            var notesDto = mapper.Map<List<NoteReadDto>>(notes);
-           return notesDto;
+           return new SuccessDataResult<List<NoteReadDto>>(notesDto,"Notes retrieved");
         });
         app.MapPost("/Notes", async (NoteCreateDto addNote, OdwsDatabaseContext context, IMapper mapper) =>
         {

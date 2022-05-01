@@ -1,4 +1,4 @@
-namespace Odws.Utilities
+namespace Odws.Utilities.Result
 { 
   public  class Result : IResult
     {

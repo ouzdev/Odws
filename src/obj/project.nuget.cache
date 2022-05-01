@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OA/xF4oaGv/MAePa4A8CSUOxb7nmsP+WZ3A//KU1+Ae9+CM1iVe1FO7/x1VGW5TNNFG6112pRPHxWxeXuXQxGA==",
+  "dgSpecHash": "yNC9QK+vg2GWnZlxk0cXtO6FdA8Y6hCYqRa9KTpzoiznm2EyNQvUL3Lr/dSDL+auI1brHHPAWmQdT6I0Z+6mYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MEBS\\Desktop\\Odws\\Odws.csproj",
+  "projectFilePath": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MEBS\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\MEBS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

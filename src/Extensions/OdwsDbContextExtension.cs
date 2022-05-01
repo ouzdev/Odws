@@ -6,7 +6,7 @@ public static class OdwsDbContextExtension
 
     public static IServiceCollection UseOdwsDbContext(this IServiceCollection services, WebApplicationBuilder options)
     {
-        var connectionString = options.Configuration.GetConnectionString("PostgreSQLConnection");
+        var connectionString = options.Configuration["PostgreSQLConnection"];
         services.AddDbContext<OdwsDatabaseContext>(x => x.UseNpgsql(connectionString));
         return services;
     }
