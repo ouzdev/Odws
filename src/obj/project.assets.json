@@ -36,7 +36,7 @@
           "lib/net6.0/Humanizer.dll": {}
         }
       },
-      "Microsoft.AspNetCore.SpaProxy/6.0.1": {
+      "Microsoft.AspNetCore.SpaProxy/6.0.4": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -1654,10 +1654,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.SpaProxy/6.0.1": {
-      "sha512": "+YbeF1hAslAdJN0quGZH3G7LHfq7kQypguLfyhD1BoR+Zad+ntTzj3H9lLYOiWOZyOMVqbxbgn9tevFfh+jOaw==",
+    "Microsoft.AspNetCore.SpaProxy/6.0.4": {
+      "sha512": "FqyhgdKuu1OVwA6iaziefKLYKiNDAfJ4KWz50k/30Bk8UQM3zz0xBQjEihKI2CE1t9V1gYagbkprM+dlYkE7Bw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/6.0.1",
+      "path": "microsoft.aspnetcore.spaproxy/6.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1665,7 +1665,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net6.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.6.0.4.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -5902,7 +5902,7 @@
     "net6.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
-      "Microsoft.AspNetCore.SpaProxy >= 6.0.1",
+      "Microsoft.AspNetCore.SpaProxy >= 6.0.4",
       "Microsoft.EntityFrameworkCore >= 7.0.0-preview.2.22153.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0-preview.2.22153.1",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0-preview.2.22153.1",
@@ -5915,19 +5915,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MEBS\\.nuget\\packages\\": {}
+    "C:\\Users\\ouzdev\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj",
+      "projectUniqueName": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\Odws.csproj",
       "projectName": "Odws",
-      "projectPath": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj",
-      "packagesPath": "C:\\Users\\MEBS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\obj\\",
+      "projectPath": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\Odws.csproj",
+      "packagesPath": "C:\\Users\\ouzdev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MEBS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ouzdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5963,7 +5967,7 @@
           },
           "Microsoft.AspNetCore.SpaProxy": {
             "target": "Package",
-            "version": "[6.0.1, )"
+            "version": "[6.0.4, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6024,7 +6028,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

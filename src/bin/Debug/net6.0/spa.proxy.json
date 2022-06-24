@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44424",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\ClientApp\\",
+"WorkingDirectory": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\ClientApp\\",
 "MaxTimeoutInSeconds": "120"
 }
 }

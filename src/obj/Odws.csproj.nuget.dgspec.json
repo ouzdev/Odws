@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj": {}
+    "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\Odws.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj": {
+    "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\Odws.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj",
+        "projectUniqueName": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\Odws.csproj",
         "projectName": "Odws",
-        "projectPath": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\Odws.csproj",
-        "packagesPath": "C:\\Users\\MEBS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MEBS\\Desktop\\Projeler\\Odws\\src\\obj\\",
+        "projectPath": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\Odws.csproj",
+        "packagesPath": "C:\\Users\\ouzdev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ouzdev\\source\\repos\\Odws\\src\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MEBS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ouzdev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,7 +53,7 @@
             },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -111,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
