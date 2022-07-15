@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Odws.Api.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace Odws.Api.Application.Interfaces.Repository
 {
-    public interface IRepository<BaseEntity>where BaseEntity:class
+    public interface IRepository<T> where T:class
     {
-        DbSet<BaseEntity> Table { get; }
+        DbSet<T> Table { get; }
     }
 }

@@ -7,12 +7,12 @@ public static class NoteEndpoint
 {
     public static WebApplication NoteEndpoints(this WebApplication app)
     {
-        app.MapGet("/Notes", async (INoteRepository noteRepository, IMapper mapper) =>
-        {
-            var notes = await noteRepository.GetAllAsync();
-           var notesDto = mapper.Map<List<NoteReadDto>>(notes);
-           return new SuccessDataResult<List<NoteReadDto>>(notesDto,"Notes retrieved");
-        });
+        //app.MapGet("/Notes", async (INoteRepository noteRepository, IMapper mapper) =>
+        //{
+        //    var notes = await noteRepository.GetAllAsync();
+        //   var notesDto = mapper.Map<List<NoteReadDto>>(notes);
+        //   return new SuccessDataResult<List<NoteReadDto>>(notesDto,"Notes retrieved");
+        //});
         //app.MapPost("/Notes", async (NoteCreateDto addNote, OdwsDatabaseContext context, IMapper mapper) =>
         //{
         //    var _mappedUser = mapper.Map<Note>(addNote);

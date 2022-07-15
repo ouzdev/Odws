@@ -18,7 +18,6 @@ namespace Odws.Infrastructure.Persistence.Context
             configurationManager.AddJsonFile("appsettings.json");
             DbContextOptionsBuilder<ApplicationDbContext> dbContextOptionsBuilder = new();
             dbContextOptionsBuilder.UseNpgsql(configurationManager.GetConnectionString("PostgreSQLConnection"));
-
             return new ApplicationDbContext(dbContextOptionsBuilder.Options);
         }
     }
